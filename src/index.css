@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.pokedex-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  margin: 3% 10%;
+}
+
+.pokecard-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 21%;
+  border-radius: 5%;
+  margin: 10px;
+  background-color: rgba(165, 161, 161, 0.445);
+}
+
+.pokecard-card > h2{
+  color: blue;
+}
+
+
+.pokedex-deck > h1{
+  flex-basis: 90%;
+  text-align: center;
+}
